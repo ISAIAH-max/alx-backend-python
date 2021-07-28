@@ -9,4 +9,4 @@ from typing import callable
 
 def make_multiplier(multiplier: float) -> callable[[float], float]:
     """returns a function that multiplies a float by multiplier"""
-    return lambda p1: p1 * multiplier
+    return (lambda p1: p1 * multiplier)
